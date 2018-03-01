@@ -1,0 +1,22 @@
+{
+  "name": "npmi-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack-cli app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.5",
+    "npmi": "^4.0.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.0.1",
+    "webpack-cli": "^2.0.9"
+  },
+  "browser": {
+    "npmi": "./browser/npm.js"
+  }
+}
